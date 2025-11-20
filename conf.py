@@ -4,22 +4,20 @@ import os
 import sys
 
 # -- Path setup --------------------------------------------------------------
-
 # Add any custom paths here if modules are outside the root directory
 # sys.path.insert(0, os.path.abspath('../src'))
 
 # -- Project information -----------------------------------------------------
 
-project = 'Set Up VIZIO Account'
-copyright = '2025, VIZIO'
-author = 'VIZIO Support Team'
+project = 'UHC UCard Activation Guide'
+copyright = '2025, UHC'
+author = 'UHC Support Team'
 
 # Full version
 release = '1.0.0'
 
 # -- General configuration ---------------------------------------------------
 
-# Add any required Sphinx extensions here
 extensions = []
 
 # Enable raw HTML in RST files
@@ -34,22 +32,19 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 # -- Options for HTML output -------------------------------------------------
 
 # Title setup
-html_title = "How to Set Up a VIZIO Account – Complete Guide"
-html_short_title = "VIZIO Setup Guide"
+html_title = "How to Activate Your UHC UCard – Complete Guide"
+html_short_title = "UHC UCard Activation"
 
-# Favicon (place the file in _static or project root)
+# Favicon (place favicon.ico in project root or _static)
 html_favicon = 'favicon.ico'
 
 # Hide page source link
-tml_show_sourcelink = False
-
-# Allow unsafe raw HTML in RST
-html_allow_unsafe = True
+html_show_sourcelink = False
 
 # Theme options
 html_theme_options = {
     'show_powered_by': False,
 }
 
-# Static asset directory
-# html_static_path = ['_static']  # Uncomment if using static files
+# Static asset directory (uncomment if needed)
+# html_static_path = ['_static']
